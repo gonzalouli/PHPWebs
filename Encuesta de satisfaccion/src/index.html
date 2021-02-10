@@ -10,17 +10,17 @@
 
     <body >
         <h1 class="display-1" id="titulo">Login</h1>
-        <form id="form" class="row g-3">
+        <form action="logica.php" method="POST" class="row g-3">
             <div class="col-auto">
               <label for="staticEmail2" class="visually-hidden">User</label>
-              <input type="text" class="form-control" id="user" placeholder="User" >
+              <input type="text" name="postUser" class="form-control" id="user" placeholder="User" >
             </div>
             <div class="col-auto">
               <label for="password" class="visually-hidden">Password</label>
-              <input type="password" class="form-control" id="psw" placeholder="Password">
+              <input type="password" name="postPass" class="form-control" id="psw" placeholder="Password">
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3">Entrar</button>
+              <button type="submit" id="submt" class="btn btn-primary mb-3" onclick="funcion();">Entrar</button>
             </div>
           </form>
     </body>
