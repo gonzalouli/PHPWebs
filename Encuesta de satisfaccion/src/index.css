@@ -1,0 +1,21 @@
+body{ 
+    background-image: url(../img/fondologin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    background-attachment: fixed;
+}
+
+#form{
+    padding-left: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+#titulo{
+    padding-left: 45%;
+    padding-top: 15%;
+    color: cadetblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
